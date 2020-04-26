@@ -40,6 +40,20 @@ h2
     font-size: 55px;
     font-weight: normal;
 }
+h3
+{
+    color: #444;
+    font-size: 24px;
+}
+p
+{
+    color: #777;
+    line-height: 20px;
+}
+.clear
+{
+    clear:both;
+}
 /* Partie spécifique à l'entête du corps du document */
 header
 {
@@ -90,9 +104,42 @@ header nav ul li a
     line-height: 50px;
     text-align: center;
     border-radius: 3px;
-    
 }
 .button-1:hover
 {
     background-color: #02b8dd;
+}
+/* Partie spécifique à la section étapes */
+#steps
+{
+    margin: 80px 0;
+}
+#steps li
+{
+    width: 300px;
+    float: left;
+    padding-top: 140px;
+    text-align: center;
+    margin-right: 10px;
+}
+#step-1
+{
+    background: url('images/steps-icon-1.png') no-repeat top center;
+}
+#step-2
+{
+    background: url('images/steps-icon-2.png') no-repeat top center;
+}
+#step-3
+{
+    background: url('images/steps-icon-3.png') no-repeat top center;
+}
+#steps h3
+{
+    text-transform: uppercase;
+    margin-bottom: 20px; 
+}
+#steps p
+{
+    margin-bottom: 20px; 
 }
