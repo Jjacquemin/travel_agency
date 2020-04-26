@@ -258,3 +258,22 @@ input[type="text"]
     color:#fff;
     background-color: #444;
 }
+/* Partie spécifique au pied du corps du document */
+footer
+{
+    height: 260px;
+    background-color: #444;
+}
+footer h1
+{
+    color:#fff;
+    text-align: center;
+    padding-top: :80px;
+}
+.copyright
+{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color:#777;
+}
