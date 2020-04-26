@@ -54,6 +54,11 @@ p
 {
     clear:both;
 }
+small
+{
+    font-size: 12px;
+    font-style: italic;
+}
 /* Partie spécifique à l'entête du corps du document */
 header
 {
@@ -142,4 +147,61 @@ header nav ul li a
 #steps p
 {
     margin-bottom: 20px; 
+}
+/* Partie spécifique à la section possibilités */
+#possibilities
+{
+    background-color: #efefef;
+    padding: 60px 0;
+}
+#possibilities article
+{
+    width: 460px;
+    height: 270px;
+    float: left;
+    border-radius: 10px;
+}
+#possibilities article:first-child
+{
+    margin-right: 20px;
+}
+.overlay
+{
+    background: rgba(255,255,255,0.95);
+    height: 100%;
+    width: 190px;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+#article-1
+{
+    background: url('images/article-image-1.jpg');
+}
+#article-2
+{
+    background: url('images/article-image-2.jpg');
+}
+#possibilities h3
+{
+    border-bottom : 1px solid #ddd;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+#possibilities p
+{
+    margin-bottom: 20px; 
+}
+.button-2
+{
+    color: #fff;
+    background-color: #ff7a00;
+    padding: 6px 20px;
+    border-radius : 3px;
+}
+.button-2:hover
+{
+    background-color: #02b8dd;
 }
